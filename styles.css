@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1700px;
+    width: 100%;
+}
+
+.logo {
+    padding: 16px 120px;
+    padding-right: 120px;
+}
+
+.menu-links ul
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 16px;
+    list-style: none;
+}
+
+.menu-links a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.btn {
+    background-color: #469165;
+    color: white;
+    padding: 12.5px;
+    border: none;
+    border-radius:12px;
+    
+}
+.btn:hover {
+    background-color: rgba(104, 148, 3, 0.788);
+}
