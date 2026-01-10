@@ -43,3 +43,104 @@
 .btn:hover {
     background-color: rgba(104, 148, 3, 0.788);
 }
+
+.about{
+    padding-bottom: 150px;
+    background-image: url("B13-A01-Knowledge-Vault/assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+ .early-access {
+    color: #469165;
+   display: inline-flex;
+   align-items: center;
+   gap: 8px;
+   background-color: white;
+   padding: 8px 20px;
+   border-radius: 15px;
+   border: none;
+}
+.early-contain 
+{
+    padding-left: 850px;
+    padding-top: 115px;
+}
+.early-access:hover{
+    background-color: rgba(255, 230, 1, 0.788);
+}
+
+.note-taking {
+
+    margin-left: 295px;
+    margin-right: 295px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.note-taking #st {
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    display: flex;
+    color: white;
+}
+
+.note-taking #nt {
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    display: flex;
+    color: #469165;
+}
+
+.note-taking #pg {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #ffffff;
+    padding-top: 16px;
+}
+.vault-btn {
+      padding-left: 850px;
+    padding-top: 38px;
+    display: flex;
+    gap: 20px;
+}
+
+.vlt-btn button {
+    background-color: #469165;
+    color: #ffffff;
+    align-items: center;
+    display: inline-flex;
+    padding: 10px 10px 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+.howit-works .btnx img {
+    width: 20px;
+}
+
+
+
+.howit-works button {
+    background-color: transparent;
+    color: #ffffff;
+    align-items: center;
+    display: inline-flex;
+    border: 1px solid white;
+    border-radius: 15px;
+     padding: 10px 10px 10px;
+}
+
+
+
+.vlt-btn button:hover {
+    background-color: rgba(104, 148, 3, 0.788);
+}
+
+.howit-works button:hover {
+    background-color: darkgrey;
+}
